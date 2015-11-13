@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir=".." name="facebook-IDE">
+    <!-- TODO: edit the following target according to your needs -->
+    <!-- (more info: http://www.netbeans.org/kb/articles/freeform-config.html#runsingle) -->
+    <target name="run-selected-file-in-classes">
+        <fail unless="run.class">Must set property 'run.class'</fail>
+        <java classname="${run.class}" failonerror="true" fork="true">
+            <classpath>
+                <pathelement path="C:\Users\Shaya\Desktop\Essex\MSC PROJECT AND DISSERTATION\Implementation\src\trunk\Wonderland\trunk\core\ext\common\mtgame.jar;C:\Users\Shaya\Desktop\Essex\MSC PROJECT AND DISSERTATION\Implementation\src\trunk\Wonderland\trunk\core\ext\sgs\sgs-server-dist-0.9.10\lib\sgs-server-api-0.9.10.jar;C:\Users\Shaya\Desktop\Essex\MSC PROJECT AND DISSERTATION\Implementation\src\trunk\Wonderland\trunk\core\ext\sgs\sgs-server-dist-0.9.10\lib\sgs-shared-1.7.jar;C:\Users\Shaya\Desktop\Essex\MSC PROJECT AND DISSERTATION\Implementation\src\trunk\Wonderland\trunk\core\build\lib\wonderland-client.jar;C:\Users\Shaya\Desktop\Essex\MSC PROJECT AND DISSERTATION\Implementation\src\trunk\Wonderland\trunk\core\build\lib\wonderland-common.jar;C:\Users\Shaya\Desktop\Essex\MSC PROJECT AND DISSERTATION\Implementation\src\trunk\Wonderland\trunk\core\build\lib\wonderland-server.jar;lib/restfb-1.6.9.jar;C:\Users\Shaya\Desktop\Essex\MSC PROJECT AND DISSERTATION\Implementation\src\trunk\Wonderland\trunk\core\ext\jme20\target\jme.jar;C:\Users\Shaya\Desktop\Essex\MSC PROJECT AND DISSERTATION\Implementation\src\trunk\Wonderland\trunk\modules\foundation\sharedstate\dist\sharedstate.jar;C:\Users\Shaya\Desktop\Essex\MSC PROJECT AND DISSERTATION\Implementation\src\trunk\Wonderland-modules\0.5\stable\poster\build\server\poster-server.jar;C:\Users\Shaya\Desktop\Essex\MSC PROJECT AND DISSERTATION\Implementation\src\trunk\Wonderland-modules\0.5\stable\poster\build\client\poster-client.jar"/>
+            </classpath>
+        </java>
+    </target>
+</project>
